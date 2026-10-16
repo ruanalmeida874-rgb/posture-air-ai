@@ -1,0 +1,42 @@
+# Dependências
+node_modules/
+.pnp
+.pnp.js
+
+# Saídas e Caches de Compilação
+.output/
+.tanstack/
+.wrangler/
+dist/
+dist-ssr/
+*.local
+
+# Cache de ferramentas
+.vite/
+.nitro/
+.turbo/
+
+# Variáveis de Ambiente e Credenciais Locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs de Execução
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Xcode / Apple (Módulo iOS Nativo)
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+.build/
